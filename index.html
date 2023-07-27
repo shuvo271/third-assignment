@@ -72,12 +72,10 @@
                     <li><a>All Fruits</a></li>
                 </ul>
             </div>
-            <!-- nav center -->
             <div class="navbar-center lg:flex gap-3">
                 <img class="w-[50px]" src="./images/logo.png" alt="">
                 <h3 class="text-4xl lg:text-[#fff] font-lato font-bold">Fruit Burst</h3>
             </div>
-            <!-- nav end -->
             <div class="navbar-end lg:pr-5 cursor-pointer ">
                 <div class="border-2 bg-white rounded-full lg:px-7 hidden lg:block ">
                     <input class="text-base text-[#12121266] border-0 outline-none p-3 font-lato rounded-full  "
@@ -175,46 +173,49 @@
 
 
     <main class="container mx-auto">
-        <!-- bonus part -->
-        <section class="mt-9 p-4">
-          <!-- deal text -->
-          <div class=" flex p-5 flex-col  justify-between  items-center lg:flex-row ">
-            <div class="space-y-3">
-              <h3 class=" text-center font-extrabold lg:text-left text-4xl">Deal of the day</h3>
-              <p class="text-xl font-semibold">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
-            </div>
-            <div class="flex gap-2 lg:gap-5 mt-5">
-              <div>
-                <span class="countdown font-lato font-extrabold text-4xl">
-                  <span style="--value:15;"></span>
-                </span><br>
-                days
-              </div>
-              <p class="  text-4xl">:</p>
-              <div>
-                <span class="countdown font-lato font-extrabold text-4xl">
-                  <span style="--value:10;"></span>
-                </span>
-                <br> hours
-              </div>
-              <p class="  text-4xl">:</p>
-              <div>
-                <span class="countdown font-lato font-extrabold text-4xl">
-                  <span style="--value:24;"></span>
-                </span>
-                <br>
-                min
-              </div>
-              <p class="  text-4xl">:</p>
-              <div>
-                <span class="countdown font-lato font-extrabold text-4xl">
-                  <span style="--value:49;"></span>
-                </span>
-                <br>sec
-              </div>
-    
-            </div>
-          </div>
+        <!-- day-of-the-day-section -->
+        <section id="dealOfTheDay">
+			<div class="container px-5  mx-auto py-12">
+				<div class="flex flex-col justify-between md:flex-row gap-7 items-center">
+					<div class="w-full max-w-xl text-center md:text-left">
+						<h2 class="text-color-primary font-extrabold text-xl md:text-5xl pb-2 md:pb-6">Deal of the day
+						</h2>
+						<p class="font-medium md:text-base text-sm text-[#9e9e9e]  ">Contrary to popular belief, is
+							not simply random text. It has roots in a piece of classical Latin literature from 45 BC,
+							making it over 2000 years old.</p>
+					</div>
+					<ul class="flex justify-between items-start gap-4">
+						<li class="text-center">
+							<h2 class="text-2xl md:text-5xl font-extrabold leading-normal pb-1 text-color-primary">29</h2>
+							<p class="text-xs md:text-base font-medium text-[#9e9e9e]">Days</p>
+						</li>
+						<li class="text-center">
+							<h2 class="text-2xl md:text-5xl font-extrabold leading-normal pb-1 text-color-primary">:</h2>
+						</li>
+						<li class="text-center">
+							<h2 class="text-2xl md:text-5xl font-extrabold leading-normal pb-1 text-color-primary">15</h2>
+							<p class="text-xs md:text-base font-medium text-[#9e9e9e]">Hours</p>
+						</li>
+						<li class="text-center">
+							<h2 class="text-2xl md:text-5xl font-extrabold leading-normal pb-1 text-color-primary">:</h2>
+						</li>
+						<li class="text-center">
+							<h2 class="text-2xl md:text-5xl font-extrabold leading-normal pb-1 text-color-primary">25</h2>
+							<p class="text-xs md:text-base font-medium text-[#9e9e9e]">Minutes</p>
+						</li>
+						<li class="text-center">
+							<h2 class="text-2xl md:text-5xl font-extrabold leading-normal pb-1 text-color-primary">:</h2>
+						</li>
+						<li class="text-center">
+							<h2 class="text-2xl md:text-5xl font-extrabold leading-normal pb-1 text-color-primary">08</h2>
+							<p class="text-xs md:text-base font-medium text-[#9e9e9e]">Seconds</p>
+						</li>
+					</ul>
+				</div>
+
+                <!-- day-of-the-day-section end -->
+
+
           <!-- card option -->
           <div class="grid gap-9 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-9">
             <!-- first card -->
@@ -535,7 +536,7 @@
 					<img src="images/whychoose1.png" alt="" class="w-full h-full object-cover rounded-lg order">
 					<div class="flex flex-col gap-5 lg:order-first">
 						<div class="flex gap-4 flex-col items-center justify-center lg:flex-row lg:items-start">
-							<div class="h-14 w-14 rounded-full bg-color-fifth flex-shrink-0 grid place-content-center">
+							<div class="h-14 w-14 rounded-full bg-[#e7e7e7] flex-shrink-0 grid place-content-center">
 								<img src="./icon/1.png" alt="">
 							</div>
 							<div class="text-center lg:text-left flex flex-col items-center lg:items-start">
@@ -545,7 +546,7 @@
 							</div>
 						</div>
 						<div class="flex gap-4 flex-col items-center justify-center lg:flex-row lg:items-start">
-							<div class="h-14 w-14 rounded-full bg-color-fifth flex-shrink-0 grid place-content-center">
+							<div class="h-14 w-14 rounded-full bg-[#e7e7e7] flex-shrink-0 grid place-content-center">
 								<img src="./icon/2.png" alt="">
 							</div>
 							<div class="text-center lg:text-left flex flex-col items-center lg:items-start">
@@ -555,7 +556,7 @@
 							</div>
 						</div>
 						<div class="flex gap-4 flex-col items-center justify-center lg:flex-row lg:items-start">
-							<div class="h-14 w-14 rounded-full bg-color-fifth flex-shrink-0 grid place-content-center">
+							<div class="h-14 w-14 rounded-full bg-[#e7e7e7] flex-shrink-0 grid place-content-center">
 								<img src="./icon/3.png" alt="">
 							</div>
 							<div class="text-center lg:text-left flex flex-col items-center lg:items-start">
@@ -567,7 +568,7 @@
 					</div>
 					<div class="flex flex-col gap-5">
 						<div class="flex gap-4 flex-col items-center justify-center lg:flex-row-reverse lg:items-start">
-							<div class="h-14 w-14 rounded-full bg-color-fifth flex-shrink-0 grid place-content-center">
+							<div class="h-14 w-14 rounded-full bg-[#e7e7e7] flex-shrink-0 grid place-content-center">
 								<img src="./icon/3.png" alt="">
 							</div>
 							<div class="text-center lg:text-right flex flex-col items-center lg:items-end">
@@ -577,7 +578,7 @@
 							</div>
 						</div>
 						<div class="flex gap-4 flex-col items-center justify-center lg:flex-row-reverse lg:items-start">
-							<div class="h-14 w-14 rounded-full bg-color-fifth flex-shrink-0 grid place-content-center">
+							<div class="h-14 w-14 rounded-full bg-[#e7e7e7] flex-shrink-0 grid place-content-center">
 								<img src="./icon/4.png" alt="">
 							</div>
 							<div class="text-center lg:text-right flex flex-col items-center lg:items-end">
@@ -587,7 +588,7 @@
 							</div>
 						</div>
 						<div class="flex gap-4 flex-col items-center justify-center lg:flex-row-reverse lg:items-start">
-							<div class="h-14 w-14 rounded-full bg-color-fifth flex-shrink-0 grid place-content-center">
+							<div class="h-14 w-14 rounded-full bg-[#e7e7e7] flex-shrink-0 grid place-content-center">
 								<img src="./icon/5.png" alt="">
 							</div>
 							<div class="text-center lg:text-right flex flex-col items-center lg:items-end">
